@@ -16,6 +16,8 @@ cp bullet/linux64/lib/libBulletDynamics.so ../../../../target/classes/linux64/li
 cp bullet/linux64/lib/libBulletSoftBody.so ../../../../target/classes/linux64/libBulletSoftBody.so
 cp bullet/linux64/lib/libLinearMath.so ../../../../target/classes/linux64/libLinearMath.so
 
+make test
+
 rm -R CMakeFiles
 rm CMakeCache.txt
 rm cmake_install.cmake

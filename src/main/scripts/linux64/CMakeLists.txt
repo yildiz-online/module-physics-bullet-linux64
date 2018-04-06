@@ -22,5 +22,12 @@ file(
 )
 
 add_library(yildizbullet SHARED ${source_files})
-
 target_link_libraries(yildizbullet ${BULLET_LIBRARIES})
+
+option(BUILD_TESTS "Determines whether to build tests." OFF)
+if(GB_BUILD_TESTS)
+  add_executable(yildizbullet_test ${source_files})
+  target_link_libraries(yildizbullet_test ${BULLET_LIBRARIES})
+  enable_testing()
+  add_test(NAME yildizbullet_test COMMAND yildizbullet_test)
+endif()
