@@ -4,10 +4,6 @@ project (yildiz_native_bullet)
 
 set(CMAKE_CXX_FLAGS "-O2 -fPIC -std=gnu++11")
 
-find_package(Bullet REQUIRED)
-find_package(Java REQUIRED)
-find_package(JNI REQUIRED)
-
 include_directories("bullet/linux64/include/bullet")
 include_directories("java/include")
 include_directories("java/include/linux")
