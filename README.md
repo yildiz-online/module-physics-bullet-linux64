@@ -26,7 +26,7 @@ Wiki:
 https://yildiz.atlassian.net/wiki
 
 Quality report:
-https://sonarqube.com/overview?id=be.yildiz-games:module-physics-bullet-win64
+https://sonarqube.com/overview?id=be.yildiz-games:module-physics-bullet-linux64
 
 ## License
 
@@ -48,7 +48,7 @@ In your maven project, add the dependency
 ```xml
 <dependency>
     <groupId>be.yildiz-games</groupId>
-    <artifactId>module-physics-bullet</artifactId>
+    <artifactId>module-physics-bullet-linux64</artifactId>
     <version>LATEST</version>
 </dependency>
 ```

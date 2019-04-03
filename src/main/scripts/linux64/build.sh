@@ -28,7 +28,3 @@ rm -r ../../c++
 rm -r ../win64
 
 return $r1
-
-
-
-

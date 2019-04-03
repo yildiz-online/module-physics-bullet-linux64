@@ -23,3 +23,4 @@ rm Makefile
 rm -R bullet
 
 return $r1
+
