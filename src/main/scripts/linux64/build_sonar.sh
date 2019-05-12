@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 cmake . \
 -DCMAKE_BUILD_TYPE=Release \
 -DBULLET_INCLUDE_DIR="bullet/linux64/include/bullet" \
