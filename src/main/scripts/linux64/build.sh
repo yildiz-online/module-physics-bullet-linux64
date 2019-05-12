@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 cmake . \
 -DCMAKE_BUILD_TYPE=Release \
 -DBULLET_INCLUDE_DIR="bullet/linux64/include/bullet" \
@@ -27,4 +29,4 @@ rm -r ../../includes
 rm -r ../../c++
 rm -r ../win64
 
-return $r1
+exit ${r1}
