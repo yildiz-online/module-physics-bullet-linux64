@@ -27,4 +27,3 @@ if(GB_BUILD_TESTS)
   enable_testing()
   add_test(NAME yildizbullet_test COMMAND yildizbullet_test)
 endif()
-
