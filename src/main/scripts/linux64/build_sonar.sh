@@ -24,5 +24,5 @@ rm cmake_install.cmake
 rm Makefile
 rm -R bullet
 
-return $r1
+return ${r1}
 
